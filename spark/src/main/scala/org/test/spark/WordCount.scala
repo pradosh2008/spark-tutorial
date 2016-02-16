@@ -22,6 +22,8 @@ object WordCount {
     }
     .reduceByKey(_+_)
     .saveAsTextFile("food.count.txt")
+    System.exit(0);
+    
     
   }
 }
